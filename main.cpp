@@ -40,7 +40,7 @@ int saisirEntierPositif(const string &msg) {
         cin.clear();
         cin.ignore(1000, '\n');
     }
-}
+} 
 int main(){
     double exam = 14.0 , td = 12.0 , tp = 16.0 , participation = 1.0;
     int absCours = 2 , absTD = 2 , absTP = 1 , choix = -1;
